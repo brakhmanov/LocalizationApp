@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 
 
     lateinit var greetingView : TextView
+    val name = "Bekhruz"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,6 +25,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun changeGreeting() {
-        greetingView.text = getString(R.string.new_greeting)
+        greetingView.text = getString(R.string.new_greeting, name)
     }
 }

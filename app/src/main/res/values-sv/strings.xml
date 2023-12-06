@@ -3,6 +3,6 @@
 <resources>
     <string name="app_name">LocalizationApp</string>
     <string name="greeting">Hej och välkommen!</string>
-    <string name="new_greeting">Tack för att du använder appen!</string>
+    <string name="new_greeting">Tack för att du använder appen %1$s!</string>
 
 </resources>
