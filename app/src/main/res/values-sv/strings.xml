@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">LocalizationApp</string>
+    <string name="greeting">Hej och välkommen!</string>
+    <string name="new_greeting">Tack för att du använder appen!</string>
+
+</resources>
